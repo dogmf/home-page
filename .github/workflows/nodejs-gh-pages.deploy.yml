@@ -27,7 +27,7 @@ jobs:
       uses: deef0000dragon1/json-edit-action/@v1
       env:
         KEY: homepage
-        VALUE: /gh-pages
+        VALUE: /home-page
         FILE: package.json
     - run: npm ci
     - run: npm run build --if-present
