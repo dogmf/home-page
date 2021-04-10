@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.c0a1b4b7.chunk.css",
-    "main.js": "/static/js/main.bafad373.chunk.js",
-    "main.js.map": "/static/js/main.bafad373.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.9c1b2f8d.js",
-    "runtime-main.js.map": "/static/js/runtime-main.9c1b2f8d.js.map",
-    "static/js/2.8d523857.chunk.js": "/static/js/2.8d523857.chunk.js",
-    "static/js/2.8d523857.chunk.js.map": "/static/js/2.8d523857.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/main.c0a1b4b7.chunk.css.map": "/static/css/main.c0a1b4b7.chunk.css.map",
-    "static/js/2.8d523857.chunk.js.LICENSE.txt": "/static/js/2.8d523857.chunk.js.LICENSE.txt",
-    "static/media/dogmf_face_face.4620fca6.png": "/static/media/dogmf_face_face.4620fca6.png",
-    "static/media/dogmf_face_glasses.4d81124d.png": "/static/media/dogmf_face_glasses.4d81124d.png",
-    "static/media/dogmf_face_hair.191ddfdf.png": "/static/media/dogmf_face_hair.191ddfdf.png",
-    "static/media/dogmf_face_shadow.88f2f6d9.png": "/static/media/dogmf_face_shadow.88f2f6d9.png"
+    "main.css": "/gh-pages/static/css/main.c0a1b4b7.chunk.css",
+    "main.js": "/gh-pages/static/js/main.bafad373.chunk.js",
+    "main.js.map": "/gh-pages/static/js/main.bafad373.chunk.js.map",
+    "runtime-main.js": "/gh-pages/static/js/runtime-main.0fe8c195.js",
+    "runtime-main.js.map": "/gh-pages/static/js/runtime-main.0fe8c195.js.map",
+    "static/js/2.8d523857.chunk.js": "/gh-pages/static/js/2.8d523857.chunk.js",
+    "static/js/2.8d523857.chunk.js.map": "/gh-pages/static/js/2.8d523857.chunk.js.map",
+    "index.html": "/gh-pages/index.html",
+    "static/css/main.c0a1b4b7.chunk.css.map": "/gh-pages/static/css/main.c0a1b4b7.chunk.css.map",
+    "static/js/2.8d523857.chunk.js.LICENSE.txt": "/gh-pages/static/js/2.8d523857.chunk.js.LICENSE.txt",
+    "static/media/dogmf_face_face.4620fca6.png": "/gh-pages/static/media/dogmf_face_face.4620fca6.png",
+    "static/media/dogmf_face_glasses.4d81124d.png": "/gh-pages/static/media/dogmf_face_glasses.4d81124d.png",
+    "static/media/dogmf_face_hair.191ddfdf.png": "/gh-pages/static/media/dogmf_face_hair.191ddfdf.png",
+    "static/media/dogmf_face_shadow.88f2f6d9.png": "/gh-pages/static/media/dogmf_face_shadow.88f2f6d9.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.9c1b2f8d.js",
+    "static/js/runtime-main.0fe8c195.js",
     "static/js/2.8d523857.chunk.js",
     "static/css/main.c0a1b4b7.chunk.css",
     "static/js/main.bafad373.chunk.js"
