@@ -1,0 +1,28 @@
+.containerBlock {
+  height: 600px;
+  width: 600px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image {
+  height: 600px;
+}
+
+@media screen and (max-width: 800px) {
+  .containerBlock {
+    height: 400px;
+    width: 400px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .image {
+    height: 400px;
+  }
+  
+}
