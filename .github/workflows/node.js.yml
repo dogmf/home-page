@@ -27,3 +27,8 @@ jobs:
         node-version: ${{ matrix.node-version }}
     - run: npm ci
     - run: npm run build --if-present
+    - run: |
+        git config --global user.name 'dogmf-github-bot'
+        git config --global user.email 'dogmf@users.noreply.github.com'
+        git commit -am "build"
+        git push
