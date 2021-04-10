@@ -1,4 +1,4 @@
-import React, { Fragment, useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import FaceImage from "./dogmf_face_face.png";
 import GlassesImage from "./dogmf_face_glasses.png";
 import ShadowImage from "./dogmf_face_shadow.png";
@@ -55,21 +55,25 @@ function MyPhoto() {
         className={CLASSES.image}
         src={FaceImage}
         style={imageMoveStyle(coords, -5)}
+        alt="FaceImage_image"
       />
       <img
         className={CLASSES.image}
         src={HairImage}
         style={imageMoveStyle(coords, -10)}
+        alt="HairImage_image"
       />
       <img
         className={CLASSES.image}
         src={GlassesImage}
         style={imageMoveStyle(coords, -2)}
+        alt="GlassesImage_image"
       />
       <img
         className={CLASSES.image}
         src={ShadowImage}
         style={imageMoveStyle(coords, 5)}
+        alt="ShadowImage_image"
       />
     </div>
   );
