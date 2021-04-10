@@ -23,8 +23,12 @@ jobs:
       uses: actions/setup-node@v2
       with:
         node-version: ${{ matrix.node-version }}
-    - run: apt-get install jq
-    - run: jq '.homepage = "/gh-pages"' package.json > tmp.$$.json && mv tmp.$$.json package.json
+    - name: set homepage
+      uses: deef0000dragon1/json-edit-action/@v1
+      env:
+        KEY: homepage
+        VALUE: /gh-pages
+        FILE: package.json
     - run: npm ci
     - run: npm run build --if-present
     - run: mv build /tmp
