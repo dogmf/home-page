@@ -14,7 +14,4 @@
   .card {
     flex-direction: column;
   }
-  .cardText {
-    color:red
-  }
 }
