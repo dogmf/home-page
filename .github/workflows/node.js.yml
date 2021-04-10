@@ -28,6 +28,7 @@ jobs:
     - run: npm ci
     - run: npm run build --if-present
     - run: mv build /tmp
+    - run: git fetch
     - run: git checkout gh-pages
     - run: rm -rf *
     - run: mv /tmp/build/* .
