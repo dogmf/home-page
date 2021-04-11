@@ -32,6 +32,7 @@ const setMouseMoveListener = (callback) => {
 };
 const DEFAULT_RATIO = 30;
 
+//TODO: "cure breakpoint on difference between -180 and 180"
 const getCenter = (point, center = point, ratio) => {
   let difference = center - point;
   if (Math.abs(difference) < ratio) return center;

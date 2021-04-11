@@ -13,11 +13,11 @@ const useDeviceOrientationGrant = () => {
       let isGranted = result === "granted";
       setGranted(isGranted);
     }
-  });
+  }, [granted]);
 
   useEffect(() => {
     if (granted === false) getGrant();
-  }, []);
+  });
 
   return useMemo(
     () => ({

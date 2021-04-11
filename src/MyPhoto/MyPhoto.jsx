@@ -1,4 +1,4 @@
-import React, { useCallback, useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import FaceImage from "./src/dogmf_face_face.png";
 import GlassesImage from "./src/dogmf_face_glasses.png";
 import ShadowImage from "./src/dogmf_face_shadow.png";
