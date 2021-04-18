@@ -1,6 +1,6 @@
 # Home page project
 
-Running app - https://github.com/dogmf/home-page
+Running app - https://dogmf.github.io/home-page/
 
 ## Idea
 
